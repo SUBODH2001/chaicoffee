@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="gauge.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/6fd7c85d00.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.1/dist/chart.umd.min.js"></script>
+    <title>Chai Coffee Canada - Chai Coffee</title>
+</head>
+<body>
+    <div class="container">
+        <div id="navSec" class="navSec">
+            <img src="" alt="Logo-Chai-Coffee" class="logo">
+    </div>
+    <div id="hamburgerContainer">
+        <div class="navLink">
+            <a href="index.html" class="home">Home</a>
+            <a href="received.html" class="receive">Received AOR?</a>
+            <a href="canadaTools.html" class="canada">Canada Guides & Tools</a>
+        </div>  
+
+        <div class="socialIcons">
+            <div class="social1"><i class="fa-brands fa-instagram fa-2x"></i></div>
+            <div class="social1"><i class="fa-regular fa-envelope fa-2x"></i></div>
+            <div class="social1"><i class="fa-brands fa-youtube fa-2x"></i></div>
+        </div>
+    </div>
+    <div id="hamburgerMenu">
+        <i class="fa-solid fa-bars fa-2x"></i>
+    </div>
+    <div class="trends">
+           
+                <h1 class="top">Monthly Trends</h1>
+                <div class="gauges">
+                    <h2>
+                        Average Estimated Timelines
+                    </h2>
+                    <div class="gaugeContainer">
+                        <div class="gaugeFour">
+                            <h3 class="gaugeHeading">AOR to Medical (avg. no. of days) | AOR July 2022</h3>
+                            <canvas id="gauge4"></canvas>
+                        </div>
+                        <div class="gaugeThree">
+                            <h3 class="gaugeHeading">AOR to Medical (avg. no. of days) | AOR Aug 2022</h3>
+                           
+                            <canvas id="gauge3"></canvas>
+                        </div>
+                        <div class="gaugeFive">
+                            <h3 class="gaugeHeading">AOR to Medical (avg. no. of days) | AOR Sept 2022</h3>
+                            <canvas id="gauge5"></canvas>
+                        </div>
+                         <div class="gaugeOne">
+                            <h3 class="gaugeHeading">AOR to Medical (avg. no. of days) | AOR Oct 2022</h3>
+                           
+                            <canvas id="gauge1"></canvas>
+                        </div>
+                        <div class="gaugeTwo">
+                            <h3 class="gaugeHeading">AOR to Medical (avg. no. of days) | AOR Nov 2022</h3>
+                            <canvas id="gauge2"></canvas>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="fotter">
+                    <p class="copy">&#169; 2022 Chai Coffee</p>
+                    <p class="connect">Connect with us</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="monthlyTrends.js"></script>
+
+<script src="navMenu.js"></script>
